@@ -1,0 +1,54 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 1015398,
+    "appName": "Empty",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.1"
+    },
+    "icon": "icon.png",
+    "vender": "gmarzio",
+    "description": "empty app"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "454x454-t-rex-2": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Hello World",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        }
+      },
+      "platforms": [
+        {
+          "name": "t-rex2",
+          "deviceSource": 418
+        }
+      ],
+      "designWidth": 454
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Empty"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
